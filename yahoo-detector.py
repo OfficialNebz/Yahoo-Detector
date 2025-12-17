@@ -15,7 +15,7 @@ def save_json_log(score, evidence):
 def scan_effect():
     print("\n[+]INITIALIZING NEURAL SCAN\n", end="")
 
-    for i in range(4):
+    for i in range(6):
         time.sleep(0.5)
         print('.', end="")
         sys.stdout.flush()
